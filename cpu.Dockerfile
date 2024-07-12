@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:1.8.0-py3
+FROM tensorflow/tensorflow:1.13.1-py3
 
 RUN mkdir /root/mimic2
 COPY . /root/mimic2
