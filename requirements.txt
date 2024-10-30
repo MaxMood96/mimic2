@@ -11,3 +11,4 @@ flask
 # Workaround llvmlite being incompatible with current llvm - Bug #49
 numba==0.45.1
 llvmlite==0.30.0
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
